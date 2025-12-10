@@ -82,7 +82,7 @@ export const HeroSection = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="relative hidden lg:flex justify-center items-center"
+            className="relative  lg:flex justify-center items-center"
           >
             <div className="relative w-80 h-80">
               {/* Floating shapes */}
@@ -122,7 +122,7 @@ export const HeroSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.6 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          className="absolute  left-1/2 -translate-x-1/2"
         >
           <motion.a
             href="#about"

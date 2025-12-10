@@ -25,9 +25,9 @@ export const ContactSection = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
+    { icon: Github, href: "https://github.com/Abdullahi3538", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/abdullahi-mohamed-mohamud-433262352/", label: "LinkedIn" },
+    { icon: Facebook, href: "https://www.facebook.com/abdullahi.mohamed.665150", label: "Facebook" },
   ];
 
   return (
@@ -112,15 +112,27 @@ export const ContactSection = () => {
               <h3 className="text-xl font-display font-semibold mb-6">Contact Information</h3>
               
               <div className="space-y-4">
-                <div className="flex items-center gap-4">
-                  <div className="p-3 rounded-xl bg-primary/10">
-                    <Mail className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">abdullahi@example.com</p>
-                  </div>
-                </div>
+             <div className="flex items-center gap-4">
+  <a
+    href="mailto:alimohammedmohamud20@gmail.com"
+    className="p-3 rounded-xl bg-primary/10 hover:bg-primary/20 transition"
+  >
+    <Mail className="w-5 h-5 text-primary cursor-pointer" />
+  </a>
+
+  <div>
+    <p className="text-sm text-muted-foreground">Email</p>
+    <p className="font-medium">
+      <a
+        href="mailto:alimohammedmohamud20@gmail.com"
+        className="hover:underline"
+      >
+        alimohammedmohamud20@gmail.com
+      </a>
+    </p>
+  </div>
+</div>
+
                 
                 <div className="flex items-center gap-4">
                   <div className="p-3 rounded-xl bg-primary/10">
